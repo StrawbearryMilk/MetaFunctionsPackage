@@ -1,0 +1,17 @@
+Package: MetaFunctionsPkg
+Title: Meta-Analysis Functions
+Version: 0.1
+Authors@R: person("Jeffrey", "Rodriguez", email = "jeffrey.jr277@gmail.com", role = c("aut", "cre"))
+Description: Collection of functions for my meta-analysis program.
+Depends: R (>= 3.4.1)
+Imports:
+	compute.es,
+	ggplot2,
+	MAd,
+	meta,
+	metafor,
+	plotly
+License: n/a
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
