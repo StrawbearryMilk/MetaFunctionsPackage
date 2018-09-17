@@ -40,7 +40,7 @@ plot.funn <- function(meta.data){  #modified version of post by user: jsakaluk
 	  geom_segment(aes(x = meanll95, y = min(se.seq), xend = meanll95, yend = max(se.seq)), linetype='dotted', data=df.CI) +
 	  geom_segment(aes(x = meanul95, y = min(se.seq), xend = meanul95, yend = max(se.seq)), linetype='dotted', data=df.CI) +
 	  scale_y_reverse()+
-	  scale_x_continuous(breaks=seq(-2,2,1))+
+	  scale_x_continuous(breaks=seq(-3,3,1))+
 	  #coord_flip()+ #turning this one off
 	  theme_bw()
 	ggplotly(fp)
