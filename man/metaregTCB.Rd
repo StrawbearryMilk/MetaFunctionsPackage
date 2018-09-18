@@ -4,12 +4,12 @@
 \alias{metaregTCB}
 \title{Meta Regression Function}
 \usage{
-metaregTCB(subdata, meta.data)
+metaregTCB(meta.data)
 }
 \arguments{
-\item{subdata}{Subset of data}
-
 \item{meta.data}{Meta object of the subdata}
+
+\item{subdata}{Subset of data}
 }
 \description{
 Computes unmoderated meta regression of a subset
